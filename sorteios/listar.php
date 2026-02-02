@@ -7,7 +7,7 @@ $stmt = $pdo->prepare("
         id,
         nome_sorteio,
         descricao,
-        data_sorteio,
+        DATE_FORMAT(data_sorteio, '%Y-%m-%d') AS data_sorteio,
         data_final_cadastro,
         estado,
         criado_por,

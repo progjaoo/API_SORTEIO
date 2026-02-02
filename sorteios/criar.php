@@ -67,7 +67,7 @@ $stmt->execute([
 
 $sorteioId = $pdo->lastInsertId();
 
-$mensagem = "🎉 SORTEIO NOVO NA RÁDIO 89 MARAVILHA - INSCREVA-SE AGORA!";
+$mensagem = "Novo sorteio na Rádio 89 Maravilha - Inscreva-se Agora";
 
 enviarPushNovoSorteio(
     $pdo,
